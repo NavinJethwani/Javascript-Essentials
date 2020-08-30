@@ -24,10 +24,19 @@ console.log(sec)       // if we want to write the result in console
 
 //Result:- 120
 
+//Q3 Program to search for an element in a array of strings
 
+//Solution:- 
+var fruits = ["Banana", "Orange", "Apple", "Mango"];              // Enter the array you want
+var a = fruits.indexOf("Apple");                              // search for an element of your choise
+document.write(a)
 
+//Result:- 2
 
-
+//Note:- Here if we search for an element which is present in the aray provided, 
+it gives the index of that particular element as result 
+but if that element is not present in given array the result comes as -1.
+also if we leave the "" in the fruits.indexOf empty, the result is 0.
 
 
 
