@@ -1,10 +1,13 @@
 //Q1  program to search for a particular charachter in a string
 
-solution:-
+//solution:-
 let string = "string_to_be_searched"    // enter the string you want 
 let index = string.indexOf("c")         // enter the charachter you want to search
 document.write(index)                   // if we want the result in document
 console.log(index)                      // if we want to see the result in console
+
+
+//Result:- 17
 
 //NOTE:-  Here if we search for a charachter which is present in the string provided, 
 it gives the index of that particular charachter as result 
@@ -13,9 +16,49 @@ also if we leave the "" in the string.indexOf empty, the result is 0.
 
 //Q2 program to convert minutes into seconds
 
-solution:-
+//solution:-
 var min = 2            // enter the no. of minutes you want to convert to seconds
 let sec = min*60       
 document.write(sec)    // if we want to write the result in the document
 console.log(sec)       // if we want to write the result in console
 
+//Result:- 120
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Q5 Program to print an array in reverse order
+
+//Solution:-
+let fruits = [" Apple", " Banana", " Guvava" ]                 // write elements and array of your choise
+let data = fruits.reverse()                                    // change the name for the array name you assigned 
+document.write(data) 
+
+//Result:- Guvava, Banana, Apple
