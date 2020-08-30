@@ -36,7 +36,7 @@ document.write(a)
 //Note:- Here if we search for an element which is present in the aray provided, 
 it gives the index of that particular element as result 
 but if that element is not present in given array the result comes as -1.
-also if we leave the "" in the fruits.indexOf empty, the result is 0.
+
 
 
 
