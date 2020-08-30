@@ -1,1 +1,11 @@
+// Q1  program to search for a particular charachter in a string
 
+let string = "string_to_be_searched"    // enter the string you want 
+let index = string.indexOf("c")         // enter the charachter you want to search
+document.write(index)                   // if we want the result in document
+console.log(index)                      // if we want to see the result in console
+
+NOTE:-  Here if we search for a charachter which is present in the string provided, 
+it gives the index of that particular charachter as result 
+but if that charachter is not present in given string the result comes as -1.
+also if we leave the "" in the string.indexOf empty, the result is 0.
