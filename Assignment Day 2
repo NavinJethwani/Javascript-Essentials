@@ -41,35 +41,19 @@ but if that element is not present in given array the result comes as -1.
 
 //Q4 program to display elements containing'a' in them in an array
 
-Solution:-
-let array1 = ["apple","mango","pineapple","jerry","grape"];
+//Solution:-
+let array1 = [" apple "," mango "," pineapple "," jerry ","grape"];
             var s;
-            for(let i=0;i<arr.length;i++)
+            for(let i=0;i<array1.length;i++)
             {
-                s = arr[i].search('a');
+                s = array1[i].search('a');
                 if(s>0)
                 {
-                    document.write(arr[i]);
+                    document.write(array1[i]);
                 }
             }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Result:- apple mango pineapple grape
 
 
 
