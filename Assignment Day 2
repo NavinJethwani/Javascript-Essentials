@@ -46,7 +46,7 @@ let array1 = [" apple "," mango "," pineapple "," jerry ","grape"];
             var s;
             for(let i=0;i<array1.length;i++)
             {
-                s = array1[i].search('a');
+                s = array1[i].includes('a');
                 if(s>0)
                 {
                     document.write(array1[i]);
