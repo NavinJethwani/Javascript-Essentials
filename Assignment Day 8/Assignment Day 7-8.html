@@ -100,11 +100,18 @@
           font-size: medium;
           text-align:center;
         }
-        #showcart{
+        .mycart{
           width: 60%;
-          height: 200px;
+          height: auto;
           display: none;
-          display: inline-block;
+          background-color: brown;
+          margin-left: 20%;
+          position:relative;
+          padding-bottom: 27px;
+        }
+        .close{
+            margin-top: 5px;
+            margin-left: 92%;
         }
       </style>
 </head>
@@ -122,14 +129,17 @@
     </div>
     <div class="filter">
     </div>
-    <button id="addtocart">Cart</button>
+    <button onclick="showmycart()" id="addtocart">Cart</button>
+    <div class="mycart" id="cart">
+        <button onclick="hidecart()" class="close">close</button>
+    </div>
     <div class="products">
       <div class="productwrapper" id="productwrapper"></div>
     </div>
     <!-- <div id="showcart"></div> -->
     <div class="products">
       <h1>Cart</h1>
-      <div class="productwrapper" id="cart"></div>
+      <div class="productwrapper"></div>
     </div>
     <script src="Assignment Day 7-8.js"></script>
 </body>
